@@ -1,6 +1,6 @@
 # Estudos de Backend
 
-Repositório para organizar meus estudos de backend, começando pelos fundamentos de JavaScript.
+Catálogo para organizar meus estudos de backend, começando pelos fundamentos de JavaScript.
 
 Cada aula reúne anotações e exemplos práticos para consulta e revisão.
 
@@ -8,7 +8,7 @@ Cada aula reúne anotações e exemplos práticos para consulta e revisão.
 
 | Aula | Conteúdo | Exemplos |
 | --- | --- | --- |
-| 01 | [Variáveis, console e template literal](javascript/01-variaveis-console-template-literal/README.md) | [exemplos.js](javascript/01-variaveis-console-template-literal/exemplos.js) |
+| 01 | [Variáveis, console e template literal](https://github.com/Kalebreus/Vari-veis-e-template--literal) | [exemplos.js](https://github.com/Kalebreus/Vari-veis-e-template--literal/blob/main/exemplos.js) |
 | 02 | [Tipos primitivos](javascript/02-tipos-primitivos/README.md) | [exemplos.js](javascript/02-tipos-primitivos/exemplos.js) |
 | 03 | [Condicionais: if, else e switch](javascript/03-condicionais/README.md) | [exemplos.js](javascript/03-condicionais/exemplos.js) |
 | 04 | [Loops: for, while e do while](javascript/04-loops/README.md) | [exemplos.js](javascript/04-loops/exemplos.js) · [navegador.html](javascript/04-loops/navegador.html) |
@@ -17,18 +17,14 @@ Cada aula reúne anotações e exemplos práticos para consulta e revisão.
 
 Instale uma versão LTS do [Node.js](https://nodejs.org/). Não é necessário instalar dependências para estas aulas.
 
-No terminal, clone o repositório e entre na pasta:
+Para os exemplos que estão neste repositório, clone-o e entre na pasta:
 
 ```bash
 git clone https://github.com/Kalebreus/reposit-rio.git
 cd reposit-rio
 ```
 
-Execute os exemplos da primeira aula:
-
-```bash
-node javascript/01-variaveis-console-template-literal/exemplos.js
-```
+A primeira aula está em um repositório próprio. Consulte o [README de Variáveis e template literal](https://github.com/Kalebreus/Vari-veis-e-template--literal#readme) para cloná-la e executar `node exemplos.js`.
 
 Execute os exemplos da segunda aula:
 
