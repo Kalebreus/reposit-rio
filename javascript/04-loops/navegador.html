@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loops — exemplos com prompt</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
+    section { margin: 28px 0; }
+    button { font: inherit; padding: 8px 14px; cursor: pointer; }
+    pre { background: #f2f4f7; padding: 16px; white-space: pre-wrap; overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+  <h1>Loops: entradas com prompt()</h1>
+  <p>Clique em um botão para iniciar. Os diálogos abrem um de cada vez; as entradas aparecem abaixo e no console após a interação.</p>
+  <p>As saídas são comparadas exatamente como foram digitadas. Você também pode clicar em <strong>Cancelar</strong> para encerrar qualquer exemplo.</p>
+
+  <section>
+    <h2>While</h2>
+    <p>Digite exatamente <code>sair</code> para encerrar.</p>
+    <button id="iniciar-while" type="button">Iniciar exemplo de while</button>
+    <pre id="saida-while" aria-live="polite">Aguardando início.</pre>
+  </section>
+
+  <section>
+    <h2>Do while</h2>
+    <p>Digite exatamente <code>0</code> para encerrar.</p>
+    <button id="iniciar-do-while" type="button">Iniciar exemplo de do while</button>
+    <pre id="saida-do-while" aria-live="polite">Aguardando início.</pre>
+  </section>
+
+  <script>
+    document.getElementById("iniciar-while").addEventListener("click", function () {
+      const saida = document.getElementById("saida-while");
+      saida.textContent = "";
+      let entrada;
+
+      while (entrada !== "sair" && entrada !== null) {
+        entrada = prompt("Digite algo (ou 'sair' para encerrar):");
+
+        if (entrada !== null) {
+          console.log("Você digitou:", entrada);
+          saida.textContent += `Você digitou: ${entrada}\n`;
+        }
+      }
+
+      saida.textContent += entrada === null ? "Encerrado ao cancelar." : "Encerrado com sair.";
+    });
+
+    document.getElementById("iniciar-do-while").addEventListener("click", function () {
+      const saida = document.getElementById("saida-do-while");
+      saida.textContent = "";
+      let opcao;
+
+      do {
+        opcao = prompt("Escolha uma opção (1, 2, 3 ou 0 para sair):");
+
+        if (opcao !== null) {
+          console.log("Opção escolhida:", opcao);
+          saida.textContent += `Opção escolhida: ${opcao}\n`;
+        }
+      } while (opcao !== "0" && opcao !== null);
+
+      saida.textContent += opcao === null ? "Encerrado ao cancelar." : "Encerrado com 0.";
+    });
+  </script>
+</body>
+</html>
