@@ -2,7 +2,7 @@
 
 Catálogo para organizar meus estudos de backend, começando pelos fundamentos de JavaScript.
 
-Cada aula reúne anotações e exemplos práticos para consulta e revisão.
+Cada aula possui seu próprio repositório, com anotações e exemplos práticos para consulta e revisão.
 
 ## Aulas
 
@@ -11,31 +11,14 @@ Cada aula reúne anotações e exemplos práticos para consulta e revisão.
 | 01 | [Variáveis, console e template literal](https://github.com/Kalebreus/Vari-veis-e-template--literal) | [exemplos.js](https://github.com/Kalebreus/Vari-veis-e-template--literal/blob/main/exemplos.js) |
 | 02 | [Tipos primitivos](https://github.com/Kalebreus/estudos-js-02-tipos-primitivos) | [exemplos.js](https://github.com/Kalebreus/estudos-js-02-tipos-primitivos/blob/main/exemplos.js) |
 | 03 | [Condicionais: if, else e switch](https://github.com/Kalebreus/estudos-js-03-condicionais) | [exemplos.js](https://github.com/Kalebreus/estudos-js-03-condicionais/blob/main/exemplos.js) |
-| 04 | [Loops: for, while e do while](javascript/04-loops/README.md) | [exemplos.js](javascript/04-loops/exemplos.js) · [navegador.html](javascript/04-loops/navegador.html) |
+| 04 | [Loops: for, while e do while](https://github.com/Kalebreus/estudos-js-04-loops) | [exemplos.js](https://github.com/Kalebreus/estudos-js-04-loops/blob/main/exemplos.js) · [navegador.html](https://github.com/Kalebreus/estudos-js-04-loops/blob/main/navegador.html) |
 
-## Como executar
+## Como estudar e executar
 
-Instale uma versão LTS do [Node.js](https://nodejs.org/). Não é necessário instalar dependências para estas aulas.
+1. Abra o repositório da aula desejada na tabela acima.
+2. Consulte o README da aula para clonar o repositório e entrar na pasta correta.
+3. Com uma versão LTS do [Node.js](https://nodejs.org/) instalada, execute `node exemplos.js` na raiz daquele repositório.
 
-Para os exemplos que estão neste repositório, clone-o e entre na pasta:
+Não é necessário instalar dependências para estas aulas. Os exemplos que provocariam erros estão comentados e acompanhados de explicações.
 
-```bash
-git clone https://github.com/Kalebreus/reposit-rio.git
-cd reposit-rio
-```
-
-A primeira aula está em um repositório próprio. Consulte o [README de Variáveis e template literal](https://github.com/Kalebreus/Vari-veis-e-template--literal#readme) para cloná-la e executar `node exemplos.js`.
-
-A aula de tipos primitivos também tem repositório próprio. Consulte o [README de Tipos primitivos](https://github.com/Kalebreus/estudos-js-02-tipos-primitivos#readme) para cloná-la e executar `node exemplos.js`.
-
-A aula de condicionais tem repositório próprio. Consulte o [README de Condicionais](https://github.com/Kalebreus/estudos-js-03-condicionais#readme) para cloná-la e executar `node exemplos.js`.
-
-Execute os exemplos de loops:
-
-```bash
-node javascript/04-loops/exemplos.js
-```
-
-Para os exemplos de loops com `prompt()`, abra o arquivo `javascript/04-loops/navegador.html` no navegador após baixar ou clonar o repositório.
-
-Os exemplos que provocariam erros estão comentados e acompanhados de explicações.
+Na aula de loops, os exemplos com `prompt()` estão em `navegador.html`. Após baixar ou clonar o repositório de loops, abra esse arquivo em um navegador e use os botões para iniciar. O GitHub exibe o código do HTML; a execução ocorre na cópia local.
