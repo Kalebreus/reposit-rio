@@ -10,6 +10,7 @@ Cada aula reúne anotações e exemplos práticos para consulta e revisão.
 | --- | --- | --- |
 | 01 | [Variáveis, console e template literal](javascript/01-variaveis-console-template-literal/README.md) | [exemplos.js](javascript/01-variaveis-console-template-literal/exemplos.js) |
 | 02 | [Tipos primitivos](javascript/02-tipos-primitivos/README.md) | [exemplos.js](javascript/02-tipos-primitivos/exemplos.js) |
+| 03 | [Condicionais: if, else e switch](javascript/03-condicionais/README.md) | [exemplos.js](javascript/03-condicionais/exemplos.js) |
 
 ## Como executar
 
@@ -32,6 +33,12 @@ Execute os exemplos da segunda aula:
 
 ```bash
 node javascript/02-tipos-primitivos/exemplos.js
+```
+
+Execute os exemplos de condicionais (conteúdo independente):
+
+```bash
+node javascript/03-condicionais/exemplos.js
 ```
 
 Os exemplos que provocariam erros estão comentados e acompanhados de explicações.
