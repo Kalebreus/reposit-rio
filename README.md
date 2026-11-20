@@ -15,6 +15,7 @@ Cada aula possui seu próprio repositório, com anotações e exemplos práticos
 | 05 | [Funções em JavaScript](https://github.com/Kalebreus/estudos-js-05-funcoes) | [exemplos.js](https://github.com/Kalebreus/estudos-js-05-funcoes/blob/main/exemplos.js) |
 | 06 | [Funções anônimas e arrow functions](https://github.com/Kalebreus/estudos-js-06-funcoes-anonimas-e-arrow-functions) | [exemplos.js](https://github.com/Kalebreus/estudos-js-06-funcoes-anonimas-e-arrow-functions/blob/main/exemplos.js) |
 | 07 | [Arrays](https://github.com/Kalebreus/estudos-js-07-arrays.) | [exemplos.js](https://github.com/Kalebreus/estudos-js-07-arrays./blob/main/exemplos.js) |
+| 08 | [Objetos](https://github.com/Kalebreus/estudos-js-08-objetos.) | [exemplos.js](https://github.com/Kalebreus/estudos-js-08-objetos./blob/main/exemplos.js) |
 
 ## Como estudar e executar
 
