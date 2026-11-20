@@ -13,6 +13,7 @@ Cada aula possui seu próprio repositório, com anotações e exemplos práticos
 | 03 | [Condicionais: if, else e switch](https://github.com/Kalebreus/estudos-js-03-condicionais) | [exemplos.js](https://github.com/Kalebreus/estudos-js-03-condicionais/blob/main/exemplos.js) |
 | 04 | [Loops: for, while e do while](https://github.com/Kalebreus/estudos-js-04-loops) | [exemplos.js](https://github.com/Kalebreus/estudos-js-04-loops/blob/main/exemplos.js) · [navegador.html](https://github.com/Kalebreus/estudos-js-04-loops/blob/main/navegador.html) |
 | 05 | [Funções em JavaScript](https://github.com/Kalebreus/estudos-js-05-funcoes) | [exemplos.js](https://github.com/Kalebreus/estudos-js-05-funcoes/blob/main/exemplos.js) |
+| 06 | [Funções anônimas e arrow functions](https://github.com/Kalebreus/estudos-js-06-funcoes-anonimas-e-arrow-functions) | [exemplos.js](https://github.com/Kalebreus/estudos-js-06-funcoes-anonimas-e-arrow-functions/blob/main/exemplos.js) |
 
 ## Como estudar e executar
 
