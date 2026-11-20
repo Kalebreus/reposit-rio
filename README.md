@@ -18,6 +18,7 @@ Cada aula possui seu próprio repositório, com anotações e exemplos práticos
 | 08 | [Objetos](https://github.com/Kalebreus/estudos-js-08-objetos.) | [exemplos.js](https://github.com/Kalebreus/estudos-js-08-objetos./blob/main/exemplos.js) |
 | 09 | [Map, filter e spread](https://github.com/Kalebreus/estudos-js-09-map-filter-spread) | [exemplos.js](https://github.com/Kalebreus/estudos-js-09-map-filter-spread/blob/main/exemplos.js) |
 | 10 | [Find e reduce](https://github.com/Kalebreus/estudos-js-10-find-reduce.) | [exemplos.js](https://github.com/Kalebreus/estudos-js-10-find-reduce./blob/main/exemplos.js) |
+| 11 | [Desestruturação de objetos](https://github.com/Kalebreus/estudos-js-11-desestruturacao-de-objetos) | [exemplos.js](https://github.com/Kalebreus/estudos-js-11-desestruturacao-de-objetos/blob/main/exemplos.js) |
 
 ## Como estudar e executar
 
